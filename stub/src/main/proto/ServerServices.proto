@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "com.example.tutorial.protos";
+option java_outer_classname = "AddressBookProtos";
+
+service ServerServices{
+
+}
+
+
+
+message Tr{
+
+    uint64 amount = 2;
+}
+
+
+
+message Tx{
+
+}
